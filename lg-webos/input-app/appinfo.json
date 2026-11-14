@@ -1,0 +1,14 @@
+{
+  "id": "com.webosbrew.inputs",
+  "version": "1.0.0",
+  "vendor": "webosbrew",
+  "type": "web",
+  "main": "index.html",
+  "title": "Inputs",
+  "icon": "icon.png",
+  "largeIcon": "icon.png",
+  "iconColor": "#76b900",
+  "transparent": false,
+  "handlesRelaunch": true,
+  "disableBackHistoryAPI": true
+}

@@ -1,0 +1,115 @@
+# Kodi Media Center language file
+# Addon Name: Anime Tracks
+# Addon id: service.animetracks
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_GB\n"
+
+msgctxt "#30000"
+msgid "General"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Scope"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Track choice"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Other"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Enabled"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Pick Japanese audio and English subtitles for files in your anime folders."
+msgstr ""
+
+msgctxt "#30012"
+msgid "Anime folder names"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Comma-separated. A plain name such as Anime matches that folder anywhere in a path; a value with a slash, such as media/share/Anime, matches that path fragment."
+msgstr ""
+
+msgctxt "#30014"
+msgid "Remember my track changes for"
+msgstr ""
+
+msgctxt "#30015"
+msgid "When you change tracks while watching, where should that choice apply?"
+msgstr ""
+
+msgctxt "#30016"
+msgid "The file's folder"
+msgstr ""
+
+msgctxt "#30017"
+msgid "The whole show (folder under Anime)"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Japanese audio language codes"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Comma-separated language tags treated as Japanese audio."
+msgstr ""
+
+msgctxt "#30022"
+msgid "English subtitle language codes"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Comma-separated language tags treated as English subtitles."
+msgstr ""
+
+msgctxt "#30024"
+msgid "If a file has no Japanese audio"
+msgstr ""
+
+msgctxt "#30025"
+msgid "What to do with subtitles when only a dub is present."
+msgstr ""
+
+msgctxt "#30026"
+msgid "Signs and Songs subtitles only"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Full English subtitles"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Leave Kodi's choice"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Show a notification"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Briefly show which tracks were picked or saved."
+msgstr ""
+
+msgctxt "#30032"
+msgid "Debug logging"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Write every stream list to kodi.log."
+msgstr ""
+
+msgctxt "#30034"
+msgid "Forget all remembered folder choices"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Go back to Japanese audio and English subtitles everywhere."
+msgstr ""

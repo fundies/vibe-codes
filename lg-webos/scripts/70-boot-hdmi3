@@ -1,0 +1,15 @@
+#!/bin/sh
+# Boot directly to HDMI3. Runs after Luma's home-takeover hook (64-luma-home),
+# so HDMI3 is the final foreground app. Home button still brings up Luma.
+# Reversible: delete this file. Writes only to /tmp.
+(
+  for i in $(seq 1 45); do
+    /usr/bin/luna-send -n 1 -w 2000 \
+      -f luna://com.webos.service.applicationmanager/getForegroundAppInfo '{}' >/dev/null 2>&1 && break
+    sleep 1
+  done
+  sleep 3
+  /usr/bin/luna-send -n 1 -w 5000 \
+    -f luna://com.webos.service.applicationmanager/launch '{"id":"com.webos.app.hdmi3"}'
+  echo "[boot-hdmi3] launched $(date)"
+) >/tmp/boot-hdmi3.log 2>&1 &

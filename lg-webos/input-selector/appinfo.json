@@ -1,0 +1,14 @@
+{
+  "id": "com.webosbrew.overlay",
+  "version": "1.0.0",
+  "vendor": "webosbrew",
+  "type": "native",
+  "main": "run.sh",
+  "title": "Overlay",
+  "icon": "icon.png",
+  "iconColor": "#76b900",
+  "resolution": "1920x1080",
+  "handlesRelaunch": false,
+  "visible": false,
+  "nativeLifeCycleInterfaceVersion": 2
+}
